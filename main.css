@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    padding-top: 100px;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: #eee7e7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  header img {
+    width: 60px;
+    margin-right: 16px;
+  }
+  
+  header h1 {
+    font-size: 40px;
+    margin: 8px;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;    
+    gap: 20px;
+  }
+  
+  .form-grupo {
+    display: flex;
+    align-items: center;
+  }
+  
+  form label img {
+    width: 30px; 
+  }
+  
+  form input[type="text"],
+  form input[type="tel"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #3a6088;
+    color: #eee7e7;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #124a86;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
